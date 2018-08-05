@@ -1,0 +1,165 @@
+logstash_nginx_parse | {
+logstash_nginx_parse |           "type" => "syslog",
+logstash_nginx_parse |           "host" => "ip-172-18-0-1.ec2.internal",
+logstash_nginx_parse |           "tags" => [
+logstash_nginx_parse |         [0] "_grokparsefailure"
+logstash_nginx_parse |     ],
+logstash_nginx_parse |     "@timestamp" => 2018-08-05T18:53:11.769Z,
+logstash_nginx_parse |       "@version" => "1",
+logstash_nginx_parse |        "message" => "<30>Aug  5 18:53:11 8b426b27479a[3414]: 64.233.173.26 - - [05/Aug/2018:18:53:11 +0000] \"GET /img/docker.svg HTTP/1.1\" 200 4522 \"http://18.206.119.104/\" \"Mozilla/5.0 (Linux; Android 7.1.2; Redmi 5 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.85 Mobile Safari/537.36\" \"182.65.240.23\"",
+logstash_nginx_parse |           "port" => 41630
+logstash_nginx_parse | }
+logstash_nginx_parse | {
+logstash_nginx_parse |           "type" => "syslog",
+logstash_nginx_parse |           "host" => "ip-172-18-0-1.ec2.internal",
+logstash_nginx_parse |           "tags" => [
+logstash_nginx_parse |         [0] "_grokparsefailure"
+logstash_nginx_parse |     ],
+logstash_nginx_parse |     "@timestamp" => 2018-08-05T18:53:11.814Z,
+logstash_nginx_parse |       "@version" => "1",
+logstash_nginx_parse |        "message" => "<30>Aug  5 18:53:11 8b426b27479a[3414]: 64.233.173.26 - - [05/Aug/2018:18:53:11 +0000] \"GET /css/site.css HTTP/1.1\" 200 3036 \"http://18.206.119.104/\" \"Mozilla/5.0 (Linux; Android 7.1.2; Redmi 5 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.85 Mobile Safari/537.36\" \"182.65.240.23\"",
+logstash_nginx_parse |           "port" => 41630
+logstash_nginx_parse | }
+logstash_nginx_parse | {
+logstash_nginx_parse |           "type" => "syslog",
+logstash_nginx_parse |           "host" => "ip-172-18-0-1.ec2.internal",
+logstash_nginx_parse |           "tags" => [
+logstash_nginx_parse |         [0] "_grokparsefailure"
+logstash_nginx_parse |     ],
+logstash_nginx_parse |     "@timestamp" => 2018-08-05T18:53:12.405Z,
+logstash_nginx_parse |       "@version" => "1",
+logstash_nginx_parse |        "message" => "<27>Aug  5 18:53:12 8b426b27479a[3414]: 2018/08/05 18:53:12 [error] 5#5: *2 open() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 64.233.173.26, server: localhost, request: \"GET /favicon.ico HTTP/1.1\", host: \"18.206.119.104\", referrer: \"http://18.206.119.104/\"",
+logstash_nginx_parse |           "port" => 41630
+logstash_nginx_parse | }
+logstash_nginx_parse | {
+logstash_nginx_parse |           "type" => "syslog",
+logstash_nginx_parse |           "host" => "ip-172-18-0-1.ec2.internal",
+logstash_nginx_parse |           "tags" => [
+logstash_nginx_parse |         [0] "_grokparsefailure"
+logstash_nginx_parse |     ],
+logstash_nginx_parse |     "@timestamp" => 2018-08-05T18:53:12.415Z,
+logstash_nginx_parse |       "@version" => "1",
+logstash_nginx_parse |        "message" => "<30>Aug  5 18:53:12 8b426b27479a[3414]: 64.233.173.26 - - [05/Aug/2018:18:53:12 +0000] \"GET /favicon.ico HTTP/1.1\" 404 571 \"http://18.206.119.104/\" \"Mozilla/5.0 (Linux; Android 7.1.2; Redmi 5 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.85 Mobile Safari/537.36\" \"182.65.240.23\"",
+logstash_nginx_parse |           "port" => 41630
+logstash_nginx_parse | }
+logstash_nginx_parse | {
+logstash_nginx_parse |           "type" => "syslog",
+logstash_nginx_parse |           "host" => "ip-172-18-0-1.ec2.internal",
+logstash_nginx_parse |           "tags" => [
+logstash_nginx_parse |         [0] "_grokparsefailure"
+logstash_nginx_parse |     ],
+logstash_nginx_parse |     "@timestamp" => 2018-08-05T18:53:12.672Z,
+logstash_nginx_parse |       "@version" => "1",
+logstash_nginx_parse |        "message" => "<30>Aug  5 18:53:12 8b426b27479a[3414]: 64.233.173.26 - - [05/Aug/2018:18:53:12 +0000] \"GET /fonts/segoeuil.ttf HTTP/1.1\" 200 114912 \"http://18.206.119.104/css/site.css\" \"Mozilla/5.0 (Linux; Android 7.1.2; Redmi 5 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.85 Mobile Safari/537.36\" \"182.65.240.23\"",
+logstash_nginx_parse |           "port" => 41630
+logstash_nginx_parse | }
+logstash_nginx_parse | {
+logstash_nginx_parse |           "type" => "syslog",
+logstash_nginx_parse |           "host" => "ip-172-18-0-1.ec2.internal",
+logstash_nginx_parse |           "tags" => [
+logstash_nginx_parse |         [0] "_grokparsefailure"
+logstash_nginx_parse |     ],
+logstash_nginx_parse |     "@timestamp" => 2018-08-05T18:53:15.436Z,
+logstash_nginx_parse |       "@version" => "1",
+logstash_nginx_parse |        "message" => "<30>Aug  5 18:53:15 8b426b27479a[3414]: 182.65.240.23 - - [05/Aug/2018:18:53:15 +0000] \"GET /fonts/segoeuil.ttf HTTP/1.1\" 200 808120 \"http://18.206.119.104/css/site.css\" \"Mozilla/5.0 (Linux; Android 7.1.2; Redmi 5 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.85 Mobile Safari/537.36\" \"-\"",
+logstash_nginx_parse |           "port" => 41630
+logstash_nginx_parse | }
+logstash_nginx_parse | {
+logstash_nginx_parse |           "type" => "syslog",
+logstash_nginx_parse |           "host" => "ip-172-18-0-1.ec2.internal",
+logstash_nginx_parse |           "tags" => [
+logstash_nginx_parse |         [0] "_grokparsefailure"
+logstash_nginx_parse |     ],
+logstash_nginx_parse |     "@timestamp" => 2018-08-05T18:53:42.316Z,
+logstash_nginx_parse |       "@version" => "1",
+logstash_nginx_parse |        "message" => "<30>Aug  5 18:53:42 8b426b27479a[3414]: 182.65.240.23 - - [05/Aug/2018:18:53:42 +0000] \"GET / HTTP/1.1\" 200 663 \"-\" \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36\" \"-\"",
+logstash_nginx_parse |           "port" => 41630
+logstash_nginx_parse | }
+logstash_nginx_parse | {
+logstash_nginx_parse |           "type" => "syslog",
+logstash_nginx_parse |           "host" => "ip-172-18-0-1.ec2.internal",
+logstash_nginx_parse |           "tags" => [
+logstash_nginx_parse |         [0] "_grokparsefailure"
+logstash_nginx_parse |     ],
+logstash_nginx_parse |     "@timestamp" => 2018-08-05T18:53:42.848Z,
+logstash_nginx_parse |       "@version" => "1",
+logstash_nginx_parse |        "message" => "<30>Aug  5 18:53:42 8b426b27479a[3414]: 182.65.240.23 - - [05/Aug/2018:18:53:42 +0000] \"GET /css/site.css HTTP/1.1\" 200 3036 \"http://18.206.119.104/\" \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36\" \"-\"",
+logstash_nginx_parse |           "port" => 41630
+logstash_nginx_parse | }
+logstash_nginx_parse | {
+logstash_nginx_parse |           "type" => "syslog",
+logstash_nginx_parse |           "host" => "ip-172-18-0-1.ec2.internal",
+logstash_nginx_parse |           "tags" => [
+logstash_nginx_parse |         [0] "_grokparsefailure"
+logstash_nginx_parse |     ],
+logstash_nginx_parse |     "@timestamp" => 2018-08-05T18:53:42.868Z,
+logstash_nginx_parse |       "@version" => "1",
+logstash_nginx_parse |        "message" => "<30>Aug  5 18:53:42 8b426b27479a[3414]: 182.65.240.23 - - [05/Aug/2018:18:53:42 +0000] \"GET /img/docker.svg HTTP/1.1\" 200 4522 \"http://18.206.119.104/\" \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36\" \"-\"",
+logstash_nginx_parse |           "port" => 41630
+logstash_nginx_parse | }
+logstash_nginx_parse | {
+logstash_nginx_parse |           "type" => "syslog",
+logstash_nginx_parse |           "host" => "ip-172-18-0-1.ec2.internal",
+logstash_nginx_parse |           "tags" => [
+logstash_nginx_parse |         [0] "_grokparsefailure"
+logstash_nginx_parse |     ],
+logstash_nginx_parse |     "@timestamp" => 2018-08-05T18:53:42.959Z,
+logstash_nginx_parse |       "@version" => "1",
+logstash_nginx_parse |        "message" => "<30>Aug  5 18:53:42 8b426b27479a[3414]: 159.203.81.93 - - [05/Aug/2018:18:53:42 +0000] \"GET /img/docker.svg HTTP/1.1\" 200 4522 \"http://18.206.119.104\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0\" \"-\"",
+logstash_nginx_parse |           "port" => 41630
+logstash_nginx_parse | }
+logstash_nginx_parse | {
+logstash_nginx_parse |           "type" => "syslog",
+logstash_nginx_parse |           "host" => "ip-172-18-0-1.ec2.internal",
+logstash_nginx_parse |           "tags" => [
+logstash_nginx_parse |         [0] "_grokparsefailure"
+logstash_nginx_parse |     ],
+logstash_nginx_parse |     "@timestamp" => 2018-08-05T18:53:43.533Z,
+logstash_nginx_parse |       "@version" => "1",
+logstash_nginx_parse |        "message" => "<30>Aug  5 18:53:43 8b426b27479a[3414]: 107.170.96.6 - - [05/Aug/2018:18:53:43 +0000] \"GET / HTTP/1.1\" 200 663 \"http://18.206.119.104\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0\" \"-\"",
+logstash_nginx_parse |           "port" => 41630
+logstash_nginx_parse | }
+logstash_nginx_parse | {
+logstash_nginx_parse |           "type" => "syslog",
+logstash_nginx_parse |           "host" => "ip-172-18-0-1.ec2.internal",
+logstash_nginx_parse |           "tags" => [
+logstash_nginx_parse |         [0] "_grokparsefailure"
+logstash_nginx_parse |     ],
+logstash_nginx_parse |     "@timestamp" => 2018-08-05T18:53:46.681Z,
+logstash_nginx_parse |       "@version" => "1",
+logstash_nginx_parse |        "message" => "<30>Aug  5 18:53:46 8b426b27479a[3414]: 182.65.240.23 - - [05/Aug/2018:18:53:46 +0000] \"GET /fonts/segoeuil.ttf HTTP/1.1\" 200 808120 \"http://18.206.119.104/css/site.css\" \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36\" \"-\"",
+logstash_nginx_parse |           "port" => 41630
+logstash_nginx_parse | }
+logstash_nginx_parse | {
+logstash_nginx_parse |           "type" => "syslog",
+logstash_nginx_parse |           "host" => "ip-172-18-0-1.ec2.internal",
+logstash_nginx_parse |           "tags" => [
+logstash_nginx_parse |         [0] "_grokparsefailure"
+logstash_nginx_parse |     ],
+logstash_nginx_parse |     "@timestamp" => 2018-08-05T18:53:47.629Z,
+logstash_nginx_parse |       "@version" => "1",
+logstash_nginx_parse |        "message" => "<30>Aug  5 18:53:47 8b426b27479a[3414]: 182.65.240.23 - - [05/Aug/2018:18:53:47 +0000] \"GET /favicon.ico HTTP/1.1\" 404 571 \"http://18.206.119.104/\" \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36\" \"-\"",
+logstash_nginx_parse |           "port" => 41630
+logstash_nginx_parse | }
+logstash_nginx_parse | {
+logstash_nginx_parse |           "type" => "syslog",
+logstash_nginx_parse |           "host" => "ip-172-18-0-1.ec2.internal",
+logstash_nginx_parse |           "tags" => [
+logstash_nginx_parse |         [0] "_grokparsefailure"
+logstash_nginx_parse |     ],
+logstash_nginx_parse |     "@timestamp" => 2018-08-05T18:53:47.629Z,
+logstash_nginx_parse |       "@version" => "1",
+logstash_nginx_parse |        "message" => "<27>Aug  5 18:53:47 8b426b27479a[3414]: 2018/08/05 18:53:47 [error] 5#5: *6 open() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 182.65.240.23, server: localhost, request: \"GET /favicon.ico HTTP/1.1\", host: \"18.206.119.104\", referrer: \"http://18.206.119.104/\"",
+logstash_nginx_parse |           "port" => 41630
+logstash_nginx_parse | }
+logstash_nginx_parse | {
+logstash_nginx_parse |           "type" => "syslog",
+logstash_nginx_parse |           "host" => "ip-172-18-0-1.ec2.internal",
+logstash_nginx_parse |           "tags" => [
+logstash_nginx_parse |         [0] "_grokparsefailure"
+logstash_nginx_parse |     ],
+logstash_nginx_parse |     "@timestamp" => 2018-08-05T18:53:53.838Z,
+logstash_nginx_parse |       "@version" => "1",
+logstash_nginx_parse |        "message" => "<30>Aug  5 18:53:53 8b426b27479a[3414]: 182.65.240.23 - - [05/Aug/2018:18:53:53 +0000] \"GET / HTTP/1.1\" 304 0 \"-\" \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36\" \"-\"",
+logstash_nginx_parse |           "port" => 41630
+logstash_nginx_parse | }
