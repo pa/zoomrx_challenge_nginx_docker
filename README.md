@@ -12,7 +12,7 @@ This repo contains two Docker image definitions, one for Nginx with custom home 
 ## How to build the docker images
 
 cd nginx_docker\
-docker build -t nginx_custom .\
+docker build -t nginx_custom .
 
 cd logstash_docker\
 docker build -t logstash_nginx .
