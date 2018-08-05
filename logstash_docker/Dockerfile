@@ -4,4 +4,4 @@ COPY conf_files pipeline/
 RUN rm -f /usr/share/logstash/config/pipelines.yml
 ADD pipelines.yml /usr/share/logstash/config/pipelines.yml
 EXPOSE 5000
-CMD["bin/logstash"]
+CMD ["bin/logstash"]
