@@ -18,6 +18,6 @@ cd logstash_docker\
 docker build -t logstash_nginx .
 
 
-## How to run docker-compose
+## How to run docker compose
 
 docker-compose up
