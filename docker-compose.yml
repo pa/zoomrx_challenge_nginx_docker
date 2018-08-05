@@ -5,12 +5,13 @@ services:
     build: logstash
     ports:
       - "5000:5000"
-    command: -f /usr/share/logstash/pipeline/nginx.conf
+    command: bin/logstash
 
   webserver:
     image: nginx_custom
     container_name: nginx-with-syslog
-    ports: ["80:80"]
+    ports:
+      - "80:80"
     logging:
       driver: syslog
       options:
