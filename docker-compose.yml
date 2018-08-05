@@ -1,19 +1,17 @@
 version: '3'
 services:
-  logstash:
+  logstash_docker:
     image: logstash_nginx
-    build: logstash
+    container_name: logstash_nginx_parse
     ports:
       - "5000:5000"
-    command: bin/logstash
 
-  webserver:
+  nginx_docker:
     image: nginx_custom
-    container_name: nginx-with-syslog
+    container_name: nginx_with_syslog
     ports:
       - "80:80"
     logging:
       driver: syslog
       options:
         syslog-address: "tcp://localhost:5000"
-        syslog-tag: "nginx-with-syslog"
