@@ -1,0 +1,16 @@
+logstash:
+  image: logstash_nginx
+  container_name: nginx-with-syslog
+  ports:
+    - "5000:5000"
+
+webserver:
+  image: nginx_custom
+  container_name: nginx-with-syslog
+  ports:
+    - "80:80"
+  logging:
+    driver: syslog
+    options:
+      syslog-address: "tcp://localhost:5000"
+      syslog-tag: "nginx-with-syslog"
